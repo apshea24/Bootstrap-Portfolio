@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Austins Bootstrap Site</title>
+    <title> Austin Shea's Big Site</title>
+    <!--Reset, Use on Future Projects-->
 
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
@@ -17,47 +19,49 @@
 
     <style>
 
+        button {
+            margin: auto 20px;
+        }
 
-.nav-item {
-    position: relative;
-    top: 40px;
-    right: 33.3%;
-}
+        header {
+            width: 100%;
+            margin-right: -20px;
+        }
+        
+        .aboutme {
+            border: 1px solid;
+            width: 50%;
+            height: 500px;
+            float: center;
+            background: #d6d6d6;
+            margin: auto;
+            margin-top: 80px;
+            padding-right: 15px;
+        }
 
-
-
- button {
-    margin: auto 20px;
-           
-}
-
-
-.img {
-    float: left;
-    /* margin-left: 15px; */
-    margin-right: 15px;
-    padding-bottom: 0;
-}
-
-
-
-
-
-</style>
-
+    
+    
+    </style>
 
 </head>
 
-<body>
+<body background="assets\images\connectwork.png">
 
-    <div class="container-fluid">
+    <div class="flex-container">
 
         <header>
 
-            <div class="name">
+            <div class="name" align="left">
                 <h1>Austin Shea</h1>
             </div>
 
+
+            <!-- <button type="button" class="btn btn-outline-dark" href="contacts.html">Contacts</button>
+
+            <button type="button" class="btn btn-outline-danger" href="contacts.html">Portfolio</button>
+
+            <button type="button" class="btn btn-outline-warning" href="contacts.html>About</button> -->
+            <!-- Buttons for the Nav-->
 
 
             <ul class="nav justify-content-end">
@@ -78,22 +82,20 @@
 
         </header>
 
-        <br>
-        <br>
-
-
         <div class="container">
 
-            <div class="row about">
+            <div class="row"></div>
 
-                <div class="col-lg-1 offset-md-1"></div>
+            <div class="col-md-2 offset-md-2 aboutme"></div>
+
+            <div class="col-md-8" align="center">
+                <!--Can Utilize Sections-->
+               
+
+                    <h2 align="left">About Me</h2>
 
 
-                <div class="col-lg-7">
-                    <h2>About Me</h2>
-
-
-                    <div class="img">
+                    <div class="img" align="left">
                         <img src="assets\images\image-me.png.JPG" height="200" width="200" alt="It's Me!">
                     </div>
 
@@ -124,21 +126,22 @@
                             this will make me an asset not just as a developer, but as a leader, and teammate.
                         </p>
                     </div>
-                </div>
-
-
-
-
-
-
-
 
             </div>
 
-
         </div>
+        <!--end of maincontent-->
+
+    </div>
+
+    </div> <!-- end of flex-container -->
 
 
+    <footer>
+
+        <p align="center">Copyright</p>
+
+    </footer>
 
 </body>
 
