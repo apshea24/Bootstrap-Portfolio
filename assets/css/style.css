@@ -7,6 +7,7 @@
 body{
     background-position-x: 75px;
     height: 1000px;
+    background: #5a5b5b;
 }
 
 
@@ -17,7 +18,7 @@ header {
     border-bottom: 1px solid;
     border-bottom-color: #666666;
     margin: -15px -30px 0 -15px;
-    position: fixed;
+    position: static;
     top:  0;
     width: 100%;
     z-index: 3;
@@ -27,7 +28,6 @@ header {
     border: 1px solid;
     background: #6b0808;
     float: left;
-    /* margin-left: 25%; */
     font-size: 15px;
     width: 200px;
     height: 110px;
@@ -39,8 +39,8 @@ header {
     border: 1px solid;
     height: 500px;
     background: #d6d6d6;
-    margin-top: 80px;
     margin-left: 0;
+    margin-bottom: 40px;
 }
 
 
@@ -49,8 +49,8 @@ p {
     font-family: 'Cinzel', serif;
     font-size: 20px;
     padding-left: 10px;
-    /* margin-left: auto; */
 }
+
 
 .nav-item {
     position: relative;
@@ -87,6 +87,35 @@ footer {
     font-size: 15px;
     z-index: 2;
 }
+
+.submit {
+    background-color: #6b0808;
+    color: whitesmoke;
+    border: hidden;
+    width: 90px;
+    height: 32px;
+}
+
+.submit:hover {
+    background: #9b9b29;
+}
+
+.submit:active {
+    background: #666666;
+}
+
+h1,h2 {
+    color: black;
+    font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+    color: #6b0808;
+    margin-left: 15px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+
 
     
 
