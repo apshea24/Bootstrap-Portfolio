@@ -22,42 +22,47 @@
 
 
     <header>
-        <div class="container header">
+        <div class="container">
 
-            <div class="name">
-                <h1>Austin Shea</h1>
+            <div class="row">
+
+                <div class="col-lg-3 name">
+                    <h1>Austin Shea</h1>
+                </div>
+
+                <div class="col-lg-4 .offset-lg-4"></div>
+
+                <div class="col-lg-5">
+
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-primary"><a href="contacts.html">Contacts</a></button>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-danger"><a href="portfolio.html">Portfolio</a></button>
+                        </li>
+
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-warning"><a href="index.html">About</a></button>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-
-
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <button type="button" class="btn btn-outline-dark"><a href="contacts.html" target="_blank">Contacts</a></button>
-                </li>
-
-
-                <li class="nav-item">
-                    <button type="button" class="btn btn-outline-danger"><a href="portfolio.html" target="_blank">Portfolio</a></button>
-                </li>
-
-                <li class="nav-item">
-                    <button type="button" class="btn btn-outline-warning"><a href="index.html" target="_blank">About</a></button>
-                </li>
-            </ul>
-
-
+        </div>
     </header>
 
     <br>
     <br>
 
 
-    <div class="container portfoliocontent">
+    <div class="container">
 
         <div class="row maincontent">
 
 
-            <div class="col-lg-12">
+            <div class="col-lg-12 about portfolio">
                 <h2>Portfolio</h2>
 
                 <hr>
@@ -89,14 +94,16 @@
 
                         </div>
                     </div>
+                    <!--row-->
                 </div>
+                <!--container-->
 
                 <br>
 
                 <div class="container portfolio">
 
                     <div class="row">
-                        
+
 
                         <div id=buttons class="col-lg-3 portfolioimages">
 
@@ -119,34 +126,52 @@
                         </div>
 
                     </div>
+                    <!--row-->
                 </div>
+                <!--container-->
 
                 <br>
 
                 <div class="container portfolio">
 
-                    <div class="row"></div>
-                    
+                    <div class="row">
 
-                    <div id=buttons class="col-lg-3 portfolioimages">
 
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZcNvJWDdW_k9plwyWOwLE-lakE_ppJLpDKUdHFseaUicdLMippA"
-                            alt="portfolio" class="img-thumbnail imgfluid">
-                        <button class="buttons" type="button">Rutgers</button>
+                        <div id=buttons class="col-lg-3 portfolioimages">
 
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZcNvJWDdW_k9plwyWOwLE-lakE_ppJLpDKUdHFseaUicdLMippA"
+                                alt="portfolio" class="img-thumbnail imgfluid">
+                            <button class="buttons" type="button">Rutgers</button>
+
+                        </div>
 
                     </div>
+                    <!--row-->
 
                 </div>
+                <!--container-->
 
                 <br>
             </div>
+            <!--end of main column-->
 
 
 
         </div>
+        <!--end of row 1-->
+
+
+        <div class="row slide">
+
+            <div class="col-lg-8 slider"></div>
+
+            <label for="customRange2">How Dope is this Website?!</label>
+            <input type="range" class="custom-range" min="0" step="0.5" max="5" id="customRange2">
+
+        </div>
 
     </div>
+    <!--end of portfolio content-->
 
 
     <footer>
